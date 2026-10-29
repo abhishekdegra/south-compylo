@@ -109,14 +109,14 @@ export function Story() {
               className="space-y-4 text-base sm:text-lg text-[#35271F] leading-relaxed"
             >
               <p>
-                Step inside and leave the rush behind. From the natural grains of our oak tables
-                and the soft amber glow of woven pendant lamps, to the gentle hum of our espresso
-                grinder, every detail at <strong>Compylo Café</strong> was styled to feel like home.
+                Step inside and leave the rush behind. From the sizzle of pure desi ghee on seasoned
+                cast-iron tawas and the rich, nostalgic aroma of slow-dripped Kumbakonam chicory kaapi,
+                to the soft amber glow of woven lamps, every detail at <strong>Compylo Café</strong> was styled to feel like home.
               </p>
               <p className="text-[#5C4A3E] text-base">
-                Whether you’re catching up with an old friend over a Spanish cortado, diving into a
-                good book in a quiet sunlit nook, or sharing laughter over warm burrata paninis,
-                this is your space to breathe, savor, and belong.
+                Whether you’re catching up over a frothy brass dabara of filter coffee, enjoying a
+                crispy golden Ghee Roast Masala Dosa, or diving into soft Thatte idlis in a quiet sunlit nook,
+                this is your space to slow down, savor, and belong.
               </p>
             </motion.div>
 
@@ -144,8 +144,8 @@ export function Story() {
                   <Coffee className="h-5 w-5 text-[#C78B45]" />
                 </div>
                 <div>
-                  <h4 className="font-serif font-bold text-sm text-[#221813]">Specialty Brews</h4>
-                  <p className="text-xs text-[#5C4A3E] mt-0.5">Ethically sourced single origins</p>
+                  <h4 className="font-serif font-bold text-sm text-[#221813]">Heritage Kaapi &amp; Tiffins</h4>
+                  <p className="text-xs text-[#5C4A3E] mt-0.5">Brass dabara kaapi &amp; pure ghee dosas</p>
                 </div>
               </div>
 

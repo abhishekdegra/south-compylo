@@ -205,7 +205,7 @@ export function Hero() {
               className="flex items-center gap-2.5 text-xs font-medium tracking-[0.32em] uppercase text-[#E3B47E] mb-3 sm:mb-4"
             >
               <span className="h-px w-5 sm:w-7 bg-[#C78B45]/50" />
-              <span>COMPYLO CAFÉ · COFFEE &amp; KITCHEN</span>
+              <span>COMPYLO CAFÉ · SOUTH INDIAN TIFFINS &amp; FILTER KAAPI</span>
               <span className="h-px w-5 sm:w-7 bg-[#C78B45]/50" />
             </motion.div>
 
@@ -299,9 +299,9 @@ export function Hero() {
                 </div>
                 <div className="text-left">
                   <h4 className="text-xs font-bold uppercase tracking-wider text-[#FFF7E9]">
-                    Coffee, Crafted With Care
+                    Degree Filter Kaapi
                   </h4>
-                  <p className="text-[11px] text-[#E3B47E] font-medium">Artisanal Single-Origins</p>
+                  <p className="text-[11px] text-[#E3B47E] font-medium">Brass Dabara Slow-Drip</p>
                 </div>
               </div>
 
@@ -312,9 +312,9 @@ export function Hero() {
                 </div>
                 <div className="text-left">
                   <h4 className="text-xs font-bold uppercase tracking-wider text-[#FFF7E9]">
-                    Freshly Prepared
+                    Crisp Dosas &amp; Soft Idlis
                   </h4>
-                  <p className="text-[11px] text-[#E3B47E] font-medium">Handcrafted Daily Kitchen</p>
+                  <p className="text-[11px] text-[#E3B47E] font-medium">Cast-Iron Tawa &amp; Pure Desi Ghee</p>
                 </div>
               </div>
 
@@ -325,9 +325,9 @@ export function Hero() {
                 </div>
                 <div className="text-left">
                   <h4 className="text-xs font-bold uppercase tracking-wider text-[#FFF7E9]">
-                    Your Next Favourite Corner
+                    Your Favorite Hangout
                   </h4>
-                  <p className="text-[11px] text-[#E3B47E] font-medium">Warm Oak &amp; Ambient Light</p>
+                  <p className="text-[11px] text-[#E3B47E] font-medium">Warm Teak &amp; Ambient Light</p>
                 </div>
               </div>
             </div>

@@ -24,50 +24,50 @@ const matchRules: MatchRule[] = [
   {
     mood: 'bold',
     temp: 'hot',
-    itemId: 'c1', // Signature Spanish Cortado
-    matchReason: 'A bold double ristretto tempered with silky condensed milk — high intensity with velvety depth.',
+    itemId: 'c1', // Kumbakonam Degree Filter Kaapi
+    matchReason: 'Heritage Kumbakonam chicory-infused decoction frothed high into boiling milk in a brass dabara — robust, velvety and deeply aromatic.',
   },
   {
     mood: 'bold',
     temp: 'iced',
-    itemId: 'cc2', // Nitro Cascara Cold Brew
-    matchReason: '18-hour slow-steeped arabica with nitrogen draft creaminess — bold, roasty and ice-cold.',
+    itemId: 'cc2', // Cold Filter Kaapi Frappé
+    matchReason: 'Double-strength filter coffee decoction blended with chilled milk and ice — bold, roasty and frosty.',
   },
   {
     mood: 'silky',
     temp: 'hot',
-    itemId: 'c3', // Velvet Flat White
-    matchReason: 'Precision microfoam folded into signature double espresso — perfectly balanced and smooth.',
+    itemId: 'c2', // Mysore Nugget Extra Bold
+    matchReason: 'Premium shade-grown Mysore AA beans with velvety steamed milk — smooth, nutty with cardamom undertones.',
   },
   {
     mood: 'silky',
     temp: 'iced',
-    itemId: 'cc1', // Compylo Signature Iced Shakerato
-    matchReason: 'Espresso shaken with crystal ice, orange zest and sea salt — frosted foam with silky texture.',
+    itemId: 'cc1', // Madurai Jil Jil Jigarthanda
+    matchReason: 'Madurai’s royal almond gum, nannari herbal root syrup, thick chilled milk and ice cream — ultra-creamy delight.',
   },
   {
     mood: 'cold',
     temp: 'iced',
-    itemId: 'cc3', // Yuzu Tonic Cold Brew
-    matchReason: 'Slow-drip cold brew over sparkling Japanese yuzu tonic — effervescent, crisp and revitalizing.',
+    itemId: 'cc3', // Panakam Botanical Shakerato
+    matchReason: 'Organic jaggery, dry ginger, cardamom and sweet basil seeds shaken over crystal ice — revitalizing, spicy and crisp.',
   },
   {
     mood: 'cold',
     temp: 'hot',
-    itemId: 'c2', // Artisan Pour-Over V60
-    matchReason: 'Single-origin washed Ethiopian beans highlighting jasmine floral clarity and bright citrus zest.',
+    itemId: 'c4', // Classic Americano / Black Kaapi
+    matchReason: 'Pure Chikmagalur single-origin decoction pulled long over piping mineral water — clean, citrusy and bold.',
   },
   {
     mood: 'sweet',
     temp: 'hot',
-    itemId: 'c4', // Caramel Macchiato
-    matchReason: 'Steamed vanilla milk marked with dark espresso and golden salted caramel drizzle.',
+    itemId: 'c3', // Signature Spanish Cortado
+    matchReason: 'Bold double ristretto balanced with silky sweet condensed milk — rich, velvety and comforting.',
   },
   {
     mood: 'sweet',
     temp: 'iced',
-    itemId: 'cc4', // Vietnamese Iced Coffee
-    matchReason: 'Slow-dripped dark roast over sweet condensed milk and mountain crushed ice.',
+    itemId: 'cc1', // Madurai Jil Jil Jigarthanda
+    matchReason: 'Layered nannari root sweetness, velvety badam pisin, and luscious ice cream — the ultimate sweet cooler.',
   },
 ]
 
@@ -217,7 +217,7 @@ export function BrewMatchmaker({ onHighlightItem, onOpenModal }: BrewMatchmakerP
                         Bold &amp; Intense
                       </h5>
                       <p className="text-xs text-[#E3B47E] mt-0.5">
-                        Deep dark cacao, smoky roasted hazelnut, rich thick crema.
+                        Deep chicory aroma, rich brass dabara froth, dark roasted body.
                       </p>
                     </div>
                   </button>
@@ -235,7 +235,7 @@ export function BrewMatchmaker({ onHighlightItem, onOpenModal }: BrewMatchmakerP
                         Silky &amp; Balanced
                       </h5>
                       <p className="text-xs text-[#E3B47E] mt-0.5">
-                        Velvety microfoam, gentle brown butter, rounded espresso.
+                        Velvety steamed milk, nutty Mysore beans, rounded smooth kaapi.
                       </p>
                     </div>
                   </button>
@@ -253,7 +253,7 @@ export function BrewMatchmaker({ onHighlightItem, onOpenModal }: BrewMatchmakerP
                         Crisp &amp; Refreshing
                       </h5>
                       <p className="text-xs text-[#E3B47E] mt-0.5">
-                        Slow cold extraction, citrus zest, sparkling tonic clarity.
+                        Botanical jaggery Panakam cooler or chilled shakerato over ice.
                       </p>
                     </div>
                   </button>
@@ -271,7 +271,7 @@ export function BrewMatchmaker({ onHighlightItem, onOpenModal }: BrewMatchmakerP
                         Sweet &amp; Indulgent
                       </h5>
                       <p className="text-xs text-[#E3B47E] mt-0.5">
-                        Caramel drizzle, Madagascar vanilla, comforting decadence.
+                        Madurai Jigarthanda with badam pisin, sweet nannari and ice cream.
                       </p>
                     </div>
                   </button>

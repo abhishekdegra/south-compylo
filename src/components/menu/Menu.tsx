@@ -8,7 +8,7 @@ import { BrewMatchmaker } from './BrewMatchmaker'
 import { MenuItemModal } from './MenuItemModal'
 
 export function Menu() {
-  const [activeCategory, setActiveCategory] = useState<MenuCategory>('Coffee & Espresso')
+  const [activeCategory, setActiveCategory] = useState<MenuCategory>('South Indian Tiffins')
   const [selectedModalItem, setSelectedModalItem] = useState<MenuItem | null>(null)
   const [highlightedItemId, setHighlightedItemId] = useState<string | null>(null)
 
@@ -68,8 +68,7 @@ export function Menu() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-4 text-base sm:text-lg text-[#5C4A3E] leading-relaxed"
           >
-            From velvety cortados to warm artisanal toasts and delicate pastries, every item is
-            prepared fresh to order using finest ingredients.
+            From piping hot brass dabara filter kaapi and crispy golden ghee roast dosas to cloud-soft Thatte idlis and artisanal treats, every plate is prepared fresh to order.
           </motion.p>
         </div>
 
